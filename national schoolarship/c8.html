@@ -1,0 +1,204 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<title>곽장금-서울과기대 장학금</title>
+<style>	
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+.jua, #topMenu, #topMenu ul, #topMenu ul li, .nenuLink, .submenuLink, .topMenuLi, .longLink, h3, h1, ul.list, li.list {font-family: 'Jeju Gothic', sans-serif;}
+#wrapper{max-width: 750px; margin: 0 auto; float:center;}
+#topMenu { height: 30px; /* 메인 메뉴의 높이 */ 
+		width: 800px; /* 메인 메뉴의 넓이 */ }
+#topMenu ul { /* 메인 메뉴 안의 ul을 설정함: 상위메뉴의 ul+하위 메뉴의 ul */ list-style-type: none; /* 메인 메뉴 안의 ul 내부의 목록 표시를 없애줌 */
+ margin: 0px; /* 메인 메뉴 안의 ul의 margin을 없앰 */
+  padding: 0px; /* 메인 메뉴 안의 ul의 padding을 없앰 */ } 
+#topMenu ul li { /* 메인 메뉴 안에 ul 태그 안에 있는 li 태그의 스타일 적용(상위/하위메뉴 모두) */ color: white; /* 글씨 색을 흰색으로 설정 */ background-color: #011f72; /* 배경 색을 RGB(2D2D2D)로 설정 */ float: left; /* 왼쪽으로 나열되도록 설정 */ line-height: 30px; /* 텍스트 한 줄의 높이를 30px로 설정 */ vertical-align: middle; /* 세로 정렬을 가운데로 설정 */ text-align: center; /* 텍스트를 가운데로 정렬 */ position: relative; /* 해당 li 태그 내부의 top/left 포지션 초기화 */ } 
+.menuLink, .submenuLink { /* 상위 메뉴와 하위 메뉴의 a 태그에 공통으로 설정할 스타일 */ text-decoration:none; /* a 태그의 꾸밈 효과 제거 */ display: block; /* a 태그의 클릭 범위를 넓힘 */ width: 145px; /* 기본 넓이를 150px로 설정 */ font-size: 15px; /* 폰트 사이즈를 12px로 설정  /* 폰트를 굵게 설정 */ font-family: 'Jeju Gothic', Dotum; /* 기본 폰트를 영어/한글 순서대로 설정 */ } 
+.menuLink { /* 상위 메뉴의 글씨색을 흰색으로 설정 */ color: white; } 
+.topMenuLi:hover .menuLink { /* 상위 메뉴의 li에 마우스오버 되었을 때 스타일 설정 */ color: white; /* 글씨 색 빨간색 */ background-color: #011f72; /* 배경색을 밝은 회색으로 설정 */ } 
+.submenuLink { /* 하위 메뉴의 a 태그 스타일 설정 */ color: #2d2d2d; /* 글씨 색을 RGB(2D2D2D)로 설정 */ background-color: white; /* 배경색을 흰색으로 설정 */ border: solid 1px black; /* 테두리를 설정 */ margin-top: -1px; /* 위 칸의 하단 테두리와 아래칸의 상단 테두리가 겹쳐지도록 설덩 */ } 
+.longLink { /* 좀 더 긴 메뉴 스타일 설정 */ width: 145px; /* 넓이는 190px로 설정 */ } 
+.submenu { /* 하위 메뉴 스타일 설정 */ position: absolute; /* html의 flow에 영향을 미치지 않게 absolute 설정 */ height: 0px; /* 초기 높이는 0px로 설정 */ overflow: hidden; /* 실 내용이 높이보다 커지면 해당 내용 감춤 */ transition: height .2s; /* height를 변화 시켰을 때 0.2초간 변화 되도록 설정(기본) */ -webkit-transition: height .2s; /* height를 변화 시켰을 때 0.2초간 변화 되도록 설정(구버전 크롬/사파라ㅣ) */ -moz-transition: height .2s; /* height를 변화 시켰을 때 0.2초간 변화 되도록 설정(구버전 파폭) */ -o-transition: height .2s; /* height를 변화 시켰을 때 0.2초간 변화 되도록 설정(구버전 오페라) */ } 
+.topMenuLi:hover .submenu { /* 상위 메뉴에 마우스 모버한 경우 그 안의 하위 메뉴 스타일 설정 */ height: 300px; /* 높이를 93px로 설정 */ } 
+.submenuLink:hover { /* 하위 메뉴의 a 태그의 마우스 오버 스타일 설정 */ color: white; /* 글씨색을 빨간색으로 설정 */ background-color: #001e72; /* 배경을 RGB(DDDDDD)로 설정 */ }
+h1 {text-align:center;}
+#upMenu{
+	height: 18px;
+	width: 400px;
+}
+#upMenu ul{list-style-type: none; border-color: #FFB4B9;}
+#upMenu ul li{
+	color: #FFB4B9;
+	background-color: white;
+	float: right;
+	line-height: 17px;
+	vertical-align: middle;
+	text-align: center;
+	position: relative;
+	border-color: #FFB4B9;
+}
+.upmenuLink{
+	text-decoration: none;
+	color:#FFB4B9;
+	display:block;
+	width: 100px;
+	font-size: 14px;
+	font-family: 'Jeju Gothic';
+	border-color: #FFB4B9;
+}
+</style>
+</head>
+
+<body>
+<div id="wrapper">
+<nav id="upMenu" style="float:right;" class="jua"> 
+</nav>
+<p></p><div style="text-align: center;"><a href="../home.html"><img src="../banner.png" width="150" height="100" style="margin:auto 0; display: block; text-align: center;"></a></div><p></p>
+
+<nav id="topMenu" style="align-items: center;" class="jua"> 
+	<ul class="jua"> 
+		<li class="topMenuLi"> <a class="menuLink">교내 감면 장학금</a>
+			<ul class="submenu">
+                <li><a class="submenuLink longLink" href="school reduction/a1.html" style="font-size: 14px;">입학성적우수 장학금</a></li>
+                <li><a class="submenuLink longLink" href="school reduction/a2.html" style="font-size: 14px;">성적우수 장학금</a></li>
+                <li><a class="submenuLink longLink" href="school reduction/a3.html" style="font-size: 14px;">법정 장학금</a></li>
+                <li><a class="submenuLink longLink" href="school reduction/a4.html" style="font-size: 14px;">어의 장학금</a></li>
+                <li><a class="submenuLink longLink" href="school reduction/a5.html" style="font-size: 14px;">SeoulTech 가족장학금</a></li>
+                <li><a class="submenuLink longLink" href="school reduction/a6.html" style="font-size: 14px;">봉사 장학금</a></li>
+                <li><a class="submenuLink longLink" href="school reduction/a7.html" style="font-size: 14px;">국제교류 장학금</a></li>
+                <li><a class="submenuLink longLink" href="school reduction/a8.html" style="font-size: 14px;">외국인 장학금</a></li>
+            </ul>
+        </li>
+        <li>|</li>
+        <li class="topMenuLi"> <a class="menuLink" href="act.html">교내 현금성 장학</a>
+            <ul class="submenu">
+                <li><a class="submenuLink longLink" href="cash payment/b1.html" style="font-size: 14px;">교내근로 장학금</a></li>
+                <li><a class="submenuLink longLink" href="cash payment/b2.html" style="font-size: 14px;">능력인증 장학금</a></li>
+                <li><a class="submenuLink longLink" href="cash payment/b3.html" style="font-size: 14px;">SeoulTech 희망장학금</a></li>
+                <li><a class="submenuLink longLink" href="cash payment/b4.html" style="font-size: 14px;">공로 장학금</a></li>
+                <li><a class="submenuLink longLink" href="cash payment/b5.html" style="font-size: 14px;">드림마일리지 장학금</a></li>
+
+            </ul>
+        </li>
+        <li>|</li>
+        <li class="topMenuLi"> <a class="menuLink" href="musical.html">국가장학금</a>
+            <ul class="submenu">
+                <li><a class="submenuLink longLink" href="national schoolarship/c1.html" style="font-size: 14px;">국가장학금 1유형</a></li>
+                <li><a class="submenuLink longLink" href="national schoolarship/c2.html" style="font-size: 14px;">국가장학금 2유형</a></li>
+                <li><a class="submenuLink longLink" href="national schoolarship/c3.html" style="font-size: 14px;">국가근로 장학금</a></li>
+                <li><a class="submenuLink longLink" href="national schoolarship/c4.html" style="font-size: 14px;">국가우수 장학금</a></li>
+                <li><a class="submenuLink longLink" href="national schoolarship/c5.html" style="font-size: 14px;">인문100년 장학금</a></li>
+                <li><a class="submenuLink longLink" href="national schoolarship/c6.html" style="font-size: 14px;">예술체육비전 장학금</a></li>
+                <li><a class="submenuLink longLink" href="national schoolarship/c7.html" style="font-size: 14px;">희망사다리 1유형</a></li>
+                <li><a class="submenuLink longLink" href="national schoolarship/c8.html" style="font-size: 14px;">희망사다리 2유형</a></li>
+            </ul>
+        </li> 
+        <li>|</li>
+        <li class="topMenuLi"> <a class="menuLink" href="../school reduction/loan.html">학자금 대출</a> </li> <li>|</li>
+        <li class="topMenuLi"> <a class="menuLink" href="../q&a.html">Q&A</a> </li>
+	</ul>
+</nav>
+<section>
+    <br><br>
+    <h1>국가근로장학금</h1>
+    <ul>
+      <li><b>소개</b> : 경제적으로 어려운 학생에게 근로를 통하여 등록금 및 생활비 마련의 기회를 주기 위한 장학금</li>
+      <br><li><b>근로장학생 선발 기준</b></li>
+      <br><u>교내 및 교외근로 선발기준(공통)</u>
+        <ul>
+           <br><li><u>지원자격 요건</u>을 갖춘 정규학기 등록(예정)자로 한국장학재단 국가근로 장학사업 신청자
+           <br><br><font color=red>※ 지원자격 요건 : 직전학기 성적 70점(1.88) 이상 취득 및 당해학기 학자금지원구간 8구간이하 확인자</font>
+           <br>※ 단, 봉사유형(장애대학생 지원, 외국인유학생 지원)은 소득기준 미적용
+           <br>※ 위 선발 기준은 기본 사항임. 국가근로 진행은 본인이 우리 학교 장학공지에 올라온 부서에 연락하여 면접을 본 후에 선발이 되어야 진행이 가능 함. 기본 사항을 갖추기만 한다고 근로가 가능한 것이 아님 주의</li>
+           <br><li><b>직전학기 미선발자(60% 이상) 우선 선발(교육부 권장사항)</b></li>
+           <br><li>근로업무별 부적합, 과거 근태·근로불량자·부정근로자 등은 선발 제외</li>
+           <br><li>선발기준 : 근로기관(근로지) 신청자 중 상위 순위자가 없는 경우 차순위자 순으로 선발</li>
+             <ol>
+                <br><li>학자금지원구간 4구간 이하자 중 미 선발자</li>
+               <li>학자금지원구간 5-6구간 해당자 중 미 선발자</li>
+               <li>학자금지원구간 7-8구간 해당자 중 미 선발자</li>
+             </ol>
+             <ul>
+               <br>※ 동순위일 경우 1)학자금지원구간이 낮은 자, 2)성적 상위자＊, 3)우선선발 권장 사유자＊＊순으로 선발
+               <br><br>＊ 직전학기 평점평균 성적 상위자
+               <br>＊＊ (｢국가근로장학사업 업무처리기준｣ 우선선발 사유자) 장애인, 다자녀가구(3자녀 이상), 다문화 및 북한이탈주민 가구, 국가유공자, 국가보훈자, 부모 중 한 분이 장애인·중증환자, 학업·육아 병행 학생
+               <br><br>※ 다만, 근로기관의 사정에 따라 직무(전공) 적합성 등 부득이한 사유로 선발기준(순위방식) 외 지원대상 학생을 선발할 경우 추천 사유서 작성
+             </ul>
+           <br><li>대체장학생 선발기준 : 근로장학생 활동 중지 및 중단 등에 따라 대체장학생을 필요로 하는 경우 국가근로장학생 미 선발자 중 근로유형별 선발기준을 준용하여 부서별 추천 및 선발 진행</li>
+        </ul>
+      <br><li><b>국가근로 장학생 신청 및 선발 절차 안내(학생 맞춤용)</b></li>
+        <ul>
+          <br><b>STEP 1</b> 한국장학재단에서 국가근로장학생을 신청한다.
+          <br><b>STEP 2</b> 매 학기 시작하기 한달~2주 전, 우리 학교 장학공지사항에 올라오는 국가근로 장학생 선발 공지를 확인해, 내가 근로하기 원하는 부서에 직접 연락을 해 신청서 제출 및 면접 일정을 잡는다.
+          <br><b>STEP 3</b> 면접을 보고 선발이 되었다는 통보를 받으면 아래의 국가근로 진행 절차로 넘어간다.
+        </ul>
+      <br><li><b>국가근로 장학생 진행 절차</b>(한국장학재단 홈페이지에서 진행)</li>
+        <ul>
+          <br><b>STEP 1</b> <u>서약서 확인</u>
+          <br><br><b>STEP 2</b> <u>사이버오리엔테이션 이수</u>
+          <br><br><b>STEP 3</b> <u>학업시간표작성하기</u>
+            <br><br>우리학교 장학공지에 공지되는 학업시간표 입력기간에 한국장학재단 홈페이지의 근로장학생 학업시간표 관리에 들어가 통합정보시스템에 기재된 시간표와 동일하게 시간표를 작성한다.
+          <br><br><b>STEP 4</b> <u>업무계획서 및 교육이수보고서 작성 및 제출하기</u>
+            <br><br>한국장학재단 홈페이지의 업무계획서 관리 탭에서 업무계획서 양식을 다운받아 작성 후에 담당선생님 및 본인의 싸인을 기재하여 스캔해서 업로드한다. (업무계획서는 스캔 업로드 외에도 온라인으로 근로 예상시간 또한 입력해야함)
+            <br><br>교육이수 보고서도 마찬가지로 교육이수보고서 관리 탭에서 양식을 다운 받아 작성 후 프린트, 서명 후 스캔해서 업로드 해야하는데, 교육이수 보고서는 학생 본인과 근로지 담당선생님이 교육을 받는 실제 사진을 찍어서 첨부하여 프린트 후 스캔 업로드 해야한다.
+          <br><br><b>STEP 5</b> <u>업무계획서 승인 받기</u>
+            <br><br>본인이 근무하는 근무지의 근로학생 담당선생님(장학복지팀 선생님 아님)께 업무계획서 승인 요청한다.
+          <br><br><b>STEP 6</b> <u>출근부 작성하기</u> 
+            <br><br>근무 후에, <b>3일 이내로 출근부를 작성</b>해야한다. 출근부 작성을 못 한 경우 근로지의 담당선생님께서 대신하여 작성 가능하다. <b>(※ 단 10회 이내로 제한)</b>
+            <br><font color=gray>ex) 9:00~12:00, 13:00~18:00 근로 내역에 대하여 출근부를 작성하지 못한 경우 2회 차감</font>
+        </ul>
+      <br><li><b>선발시기</b>(2020학년도 기준)</li>
+      <br><u>국가근로장학금 1차 신청</u>
+        <ul>
+           <br><li>1학기 : <b>2019.11.19~2019.12.17</b></li>
+           <li>2학기 : <b>2020.05.20~2020.06.18</b></li>
+        </ul>
+      <br><u>국가근로장학금 2차 신청</u>
+        <ul>
+           <br><li>1학기 : <b>2020.02.08~2020.03.10</b></li>
+           <li>2학기 : <b>2020.08.20~2020.09.10</b></li>
+        </ul>
+      <br><br><u>국가근로장학사업 방학 집중근로 신청</u>
+        <ul>
+           <br><li>여름학기 : <b>2020.05.21~2020.05.29</b></li>
+           <li>겨울학기 : <b>2020.10.05~2020.10.09</b></li>
+        </ul>
+         <br><font color=red>※ 위 선발시기는 2020학년도 기준이므로 정확한 선발시기는 당해년도 학사일정에 따라 변동될 수 있습니다.</font>
+      <br><br><li><b>지원금액</b> : 현 재직기업 유형 및 규모에 따라 정규학기 등록금 차등지원</li>
+      <br><li><font color=red><b>유의사항</b></font></li>
+        <ul>
+          <br><li><u><b>부정근로</b></u>(적발 시 최소 1년 이상 근로가 불가능 하며 해당 시급에 대해 환수조치 됨.)</li>
+            <ol>
+              <br><li><b>대체 근로</b> : 실제 근로일이 아닌, <b>다른 날에 본인이 근로했다고 허위로 출근부를 입력</b>하여 장학금을 취득하는 경우.</li>
+              <li><b>대리 근로</b> : 국가 근로 장학생 본인 이외의 친척 혹은 지인을 <b>대신 근무하게 함으로써 허위로 출근부를 입력</b>하여 장학금을 취득하는 경우.</li>
+              <li><b>허위 근로</b> : 본인이 <b>해당 일자에 근무를 하지 않았음에도 불구하고,</b> 근무를 했다고 출근부에 허위 기재함으로써 장학금을 취득하는 경우.</li>
+            </ol>
+          <br><li><b>일시적인 공강 및 휴강</b>으로 인해 발생한 시간에 이루어진 근로활동은 그 시간이 학업시간표와 중복</b>되므로 근로시간으로 인정되지 않음. 해당 내역을 출근부에 입력할 경우 허위근로로 간주되오니 주의.</li>
+          <br><li>해외 출국 및 입국 시, 외국에 있는 날짜(출국일과 입국일을 포함)는 근로가 불가능한 일자 이므로 근로 및 출근부 입력을 하지 않아야 함. 만약, 허위로 근로를 했다고 기재 시 환수조치가 되고, 허위 근로자로 이 후에 근로가 불가능하게 되므로 주의.</li>
+          <br><li><b>근로 도중 휴학 및 졸업을 할 경우에는,</b> 해당 학생의 학적이 ‘재학생’에서 <b>‘휴학생’ 혹은 ‘졸업생’으로 변동 되는 날부터 근로가 불가능</b>하므로 학사지원과에 연락하여 본인의 학적이 변동되는 날짜를 체크해야 함.</li>
+          <br><li>국가근로장학생은 선발 후 학업시간표 입력기간(장학공지에 공지됨)에 본인의 통합정보시스템에 입력된 학업 시간표 그대로 한국장학재단 학업 시간표를 기재 해야하고, 해당 강의가 온라인 강의로 진행된다고 하더라도 수업시간으로 정해진 시간에는 근로가 불가능함.(해당 시간에 근로 진행 시 부정근로로 간주 됨.)</li>
+          <br><li>근로장학생의 수업시간, 해외여행, 연수기간, 교생실습기간에는 근무를 할 수 없음. (※ 시간표시간에 간혹 휴강, 시험 시간이 되더라도 근무시간에 해당되지 않으며, 허위 입력 시 장학금 환수 및 근로제한 됨</li>
+          <br><li><font color=red>휴학생은 근로장학생 지원 대상에 포함 안 됨.</font></li>
+          <br><li>야간 (18:00이후) 및 주말 근무 시 출근부(온라인 등)에 근로사유를 상세히 기술 해야 함.</li>
+          <br><li>출근부는 근로장학생이 <b>근로 시작일로부터 3일 이내</b> 한국장학재단 사이트에 접속하여 출근부를 직접 입력해야 함 (출근부 미작성 시 장학금 지급 불가)
+                <br><font color=red>※ 시작 및 종료시간은 24시간 기준으로 작성, 시간 단위로만 지급가능(분 단위 인정안함) 특히, 인터넷 출근부 3일이 지나면, 장학생 출근부 온라인 입력 불가하오니 반드시 기간 내에 작성할 것</font></li>
+          <br><li>교내근로 및 인턴 장학과의 중복 수혜 및 타 기관 이중근로가 불가하며, 국가근로 장학생으로 각 기관에서 선정한 이후에도 서류 및 학점 등에 있어서 결격사유가 발생할 경우 선정이 취소되오니 이점 주의.</li>
+          <br><li>휴무일(주말 및 공휴일)에 근무 시, 수업이 없는 일자에 한해서는 근무가 가능하나 근로장학생의 근태관리를 해주실 담당 선생님이 함께 계셔야 함.</li>
+        </ul>
+      <br><li><b>한국장학재단 홈페이지 바로가기</b> : <a href = "https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_04_01">바로가기</a></li>
+      <br><li><b>문의처</b></li>
+         <ul>
+          <br><li>지원절차 및 심사 및 관련 문의 : <b>한국장학재단 고객센터(1599-2000)</b></li>
+          <li>지원부서 안내, 지원금액 및 근로장학금 지급시기 관련 문의 : <b>장학복지팀(02-970-6053)</b></li>
+          <li>희망근로지 지원 및 선발 여부 문의 : <b>각 지원 부서</b></li>
+         </ul>
+    </ul>
+    <a class="btn" href="./[국가근로장학금]장학금 관리 지침.pdf" download>국가근로장학금 관리 지침 다운로드</a>
+    <br><br>
+</section>
+</div>
+</body>
+</html>

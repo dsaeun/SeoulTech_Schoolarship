@@ -1,0 +1,329 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<title>곽장금-서울과기대 장학금</title>
+<style>	
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+.jua, #topMenu, #topMenu ul, #topMenu ul li, .nenuLink, .submenuLink, .topMenuLi, .longLink, h3, h1, ul.list, li.list {font-family: 'Jeju Gothic', sans-serif;}
+#wrapper{max-width: 750px; margin: 0 auto; float:center;}
+#topMenu { height: 30px; /* 메인 메뉴의 높이 */ 
+		width: 800px; /* 메인 메뉴의 넓이 */ }
+#topMenu ul { /* 메인 메뉴 안의 ul을 설정함: 상위메뉴의 ul+하위 메뉴의 ul */ list-style-type: none; /* 메인 메뉴 안의 ul 내부의 목록 표시를 없애줌 */
+ margin: 0px; /* 메인 메뉴 안의 ul의 margin을 없앰 */
+  padding: 0px; /* 메인 메뉴 안의 ul의 padding을 없앰 */ } 
+#topMenu ul li { /* 메인 메뉴 안에 ul 태그 안에 있는 li 태그의 스타일 적용(상위/하위메뉴 모두) */ color: white; /* 글씨 색을 흰색으로 설정 */ background-color: #011f72; /* 배경 색을 RGB(2D2D2D)로 설정 */ float: left; /* 왼쪽으로 나열되도록 설정 */ line-height: 30px; /* 텍스트 한 줄의 높이를 30px로 설정 */ vertical-align: middle; /* 세로 정렬을 가운데로 설정 */ text-align: center; /* 텍스트를 가운데로 정렬 */ position: relative; /* 해당 li 태그 내부의 top/left 포지션 초기화 */ } 
+.menuLink, .submenuLink { /* 상위 메뉴와 하위 메뉴의 a 태그에 공통으로 설정할 스타일 */ text-decoration:none; /* a 태그의 꾸밈 효과 제거 */ display: block; /* a 태그의 클릭 범위를 넓힘 */ width: 145px; /* 기본 넓이를 150px로 설정 */ font-size: 15px; /* 폰트 사이즈를 12px로 설정  /* 폰트를 굵게 설정 */ font-family: 'Jeju Gothic', Dotum; /* 기본 폰트를 영어/한글 순서대로 설정 */ } 
+.menuLink { /* 상위 메뉴의 글씨색을 흰색으로 설정 */ color: white; } 
+.topMenuLi:hover .menuLink { /* 상위 메뉴의 li에 마우스오버 되었을 때 스타일 설정 */ color: white; /* 글씨 색 빨간색 */ background-color: #011f72; /* 배경색을 밝은 회색으로 설정 */ } 
+.submenuLink { /* 하위 메뉴의 a 태그 스타일 설정 */ color: #2d2d2d; /* 글씨 색을 RGB(2D2D2D)로 설정 */ background-color: white; /* 배경색을 흰색으로 설정 */ border: solid 1px black; /* 테두리를 설정 */ margin-top: -1px; /* 위 칸의 하단 테두리와 아래칸의 상단 테두리가 겹쳐지도록 설덩 */ } 
+.longLink { /* 좀 더 긴 메뉴 스타일 설정 */ width: 145px; /* 넓이는 190px로 설정 */ } 
+.submenu { /* 하위 메뉴 스타일 설정 */ position: absolute; /* html의 flow에 영향을 미치지 않게 absolute 설정 */ height: 0px; /* 초기 높이는 0px로 설정 */ overflow: hidden; /* 실 내용이 높이보다 커지면 해당 내용 감춤 */ transition: height .2s; /* height를 변화 시켰을 때 0.2초간 변화 되도록 설정(기본) */ -webkit-transition: height .2s; /* height를 변화 시켰을 때 0.2초간 변화 되도록 설정(구버전 크롬/사파라ㅣ) */ -moz-transition: height .2s; /* height를 변화 시켰을 때 0.2초간 변화 되도록 설정(구버전 파폭) */ -o-transition: height .2s; /* height를 변화 시켰을 때 0.2초간 변화 되도록 설정(구버전 오페라) */ } 
+.topMenuLi:hover .submenu { /* 상위 메뉴에 마우스 모버한 경우 그 안의 하위 메뉴 스타일 설정 */ height: 300px; /* 높이를 93px로 설정 */ } 
+.submenuLink:hover { /* 하위 메뉴의 a 태그의 마우스 오버 스타일 설정 */ color: white; /* 글씨색을 빨간색으로 설정 */ background-color: #001e72; /* 배경을 RGB(DDDDDD)로 설정 */ }
+h1 {text-align:center;}
+#upMenu{
+	height: 18px;
+	width: 400px;
+}
+#upMenu ul{list-style-type: none; border-color: #FFB4B9;}
+#upMenu ul li{
+	color: #FFB4B9;
+	background-color: white;
+	float: right;
+	line-height: 17px;
+	vertical-align: middle;
+	text-align: center;
+	position: relative;
+	border-color: #FFB4B9;
+}
+.upmenuLink{
+	text-decoration: none;
+	color:#FFB4B9;
+	display:block;
+	width: 100px;
+	font-size: 14px;
+	font-family: 'Jeju Gothic';
+	border-color: #FFB4B9;
+}
+</style>
+</head>
+
+<body>
+<div id="wrapper">
+<nav id="upMenu" style="float:right;" class="jua"> 
+</nav>
+<p></p><div style="text-align: center;"><a href="home.html"><img src="banner.png" width="150" height="130" style="margin:auto 0; display: block; text-align: center;"></a></div><p></p>
+
+<nav id="topMenu" style="align-items: center;" class="jua"> 
+	<ul class="jua"> 
+		<li class="topMenuLi"> <a class="menuLink">교내 감면 장학금</a>
+			<ul class="submenu">
+                <li><a class="submenuLink longLink" href="school reduction/a1.html" style="font-size: 14px;">입학성적우수 장학금</a></li>
+                <li><a class="submenuLink longLink" href="school reduction/a2.html" style="font-size: 14px;">성적우수 장학금</a></li>
+                <li><a class="submenuLink longLink" href="school reduction/a3.html" style="font-size: 14px;">법정 장학금</a></li>
+                <li><a class="submenuLink longLink" href="school reduction/a4.html" style="font-size: 14px;">어의 장학금</a></li>
+                <li><a class="submenuLink longLink" href="school reduction/a5.html" style="font-size: 14px;">SeoulTech 가족장학금</a></li>
+                <li><a class="submenuLink longLink" href="school reduction/a6.html" style="font-size: 14px;">봉사 장학금</a></li>
+                <li><a class="submenuLink longLink" href="school reduction/a7.html" style="font-size: 14px;">국제교류 장학금</a></li>
+                <li><a class="submenuLink longLink" href="school reduction/a8.html" style="font-size: 14px;">외국인 장학금</a></li>
+            </ul>
+        </li>
+        <li>|</li>
+        <li class="topMenuLi"> <a class="menuLink" href="act.html">교내 현금성 장학</a>
+            <ul class="submenu">
+                <li><a class="submenuLink longLink" href="cash payment/b1.html" style="font-size: 14px;">교내근로 장학금</a></li>
+                <li><a class="submenuLink longLink" href="cash payment/b2.html" style="font-size: 14px;">능력인증 장학금</a></li>
+                <li><a class="submenuLink longLink" href="cash payment/b3.html" style="font-size: 14px;">SeoulTech 희망장학금</a></li>
+                <li><a class="submenuLink longLink" href="cash payment/b4.html" style="font-size: 14px;">공로 장학금</a></li>
+                <li><a class="submenuLink longLink" href="cash payment/b5.html" style="font-size: 14px;">드림마일리지 장학금</a></li>
+
+            </ul>
+        </li>
+        <li>|</li>
+        <li class="topMenuLi"> <a class="menuLink" href="musical.html">국가장학금</a>
+            <ul class="submenu">
+                <li><a class="submenuLink longLink" href="national schoolarship/c1.html" style="font-size: 14px;">국가장학금 1유형</a></li>
+                <li><a class="submenuLink longLink" href="national schoolarship/c2.html" style="font-size: 14px;">국가장학금 2유형</a></li>
+                <li><a class="submenuLink longLink" href="national schoolarship/c3.html" style="font-size: 14px;">국가근로 장학금</a></li>
+                <li><a class="submenuLink longLink" href="national schoolarship/c4.html" style="font-size: 14px;">국가우수 장학금</a></li>
+                <li><a class="submenuLink longLink" href="national schoolarship/c5.html" style="font-size: 14px;">인문100년 장학금</a></li>
+                <li><a class="submenuLink longLink" href="national schoolarship/c6.html" style="font-size: 14px;">예술체육비전 장학금</a></li>
+                <li><a class="submenuLink longLink" href="national schoolarship/c7.html" style="font-size: 14px;">희망사다리 장학금</a></li>
+            </ul>
+        </li> 
+        <li>|</li>
+		<li class="topMenuLi"> <a class="menuLink" href="./school reduction/loan.html">학자금 대출</a> </li> <li>|</li>
+		<li class="topMenuLi"> <a class="menuLink" href="q&a.html">Q&A</a> </li>
+	</ul>
+</nav>
+<section>
+    <br><br>
+    <h1>< 장학금을 받기 위해 꼭! 알아야 할 사항 ></h1>
+    <ol>
+      <br><li><b>서울과학기술대학교 장학공지를 주기적으로 확인하세요!</b></li>
+        <ul>
+          <li>Url : <a href = "https://www.seoultech.ac.kr/service/info/janghak/">https://www.seoultech.ac.kr/service/info/janghak/</a></li>
+          <li>교내장학금 및 교외장학금의 신청에 대한 공지는 본교 홈페이지 장학공지를 통해 안내되고 있습니다.</li>
+          <li>공지사항을 확인하여 꼭 알맞은 신청기간에 장학금을 신청하세요.
+            <br><font color=red>신청기간 외에는 장학금 신청이 불가합니다!</font></li>
+          <li>장학공지는 <u>주 1회 이상</u> 확인하시는 걸 추천합니다.</li>
+        </ul>
+      <br><li><b>국가장학금은 꼭 신청하세요!</b></li>
+        <ul>
+          <li>매 학기 <a href = "https://www.kosaf.go.kr/ko/main.do">한국장학재단</a>에서 국가장학금을 신청하여 <u>학자금 지원구간</u>(소득분위)를 산정 받으세요.</li>
+          <li>일부 교내 및 교외 장학금을 신청하기 위해서는 학자금 지원구간이 필요합니다.</li>
+          <li><font color=red>학자금 지원구간 통지서</font>는 한국장학재단에서 발급 가능합니다.
+            <br>[한국장학재단 홈페이지 > 장학금 > 증명서발급 > 학자금 지원구간 통지서 발급]</li>
+        </ul>
+      <br><li><b>통합정보시스템에서 ‘개인계좌 실명인증’을 등록하세요!</b></li>
+        <ul>
+          <li><font color=red>본인명의의 계좌</font>로 등록하세요. 부모님 명의의 계좌는 인증이 불가하며, 본인명의의 계좌가 없을 시 은행에서 새로 발급받아야 합니다.</li>
+          <li>[통합정보시스템 > 학사 > 학적 > 학생주소/계좌관리]에서 계좌 입력 후 꼭 ‘<font color=red>계좌인증</font>’을 체크해주세요.</li>
+          <li>실명인증을 하지 않을 경우 등록금 환불 및 장학금 수령에 불이익이 있을 수 있습니다.</li>
+        </ul>
+      <br><li><b>교내장학금은 학비감면장학금과 현금장학금으로 나뉩니다.</b></li>
+        <ul>
+          <li><u>학비감면장학금(등록금성)</u>은 등록금을 지원하는 장학금입니다. 학생 본인의 등록금 납부 범위 내에서만 지급됩니다. 
+            <br><font color=red>단, 등록금은 수업료에 한하며, 프로그램비, 공간사용료, 자치회비 등은 포함되지 않습니다.</font>
+            <br>교내 및 교외, 국가 장학금 중 여러 개의 학비감면장학금은 수혜 하는 경우에도 등록금 납부 범위 내에서만 지급됩니다.</li>
+          <li><font color=red>교내 학비감면장학금끼리는 중복수혜가 불가능합니다.</font> (단, 특별지원장학금은 예외)
+            <br>ex) 2020학년도 2학기에 대하여 성적우수장학금과 어의장학금을 동시에 받을 수 없습니다.
+            <br>ex) 2020학년도 2학기에 대하여 국가장학금과 성적우수장학금은 동시에 받을 수 있습니다.
+            <br>*특별지원장학금이란 재난상황 등 긴급한 경제사정 변화로 가계곤란을 겪고 있는 학생 중에서 선발하는 장학금입니다. (ex. 코로나19긴급지원장학금)</li>
+          <li><u>현금장학금(생활비성)</u>은 현금으로 학생 개인계좌에 직접 지급되는 장학금입니다. 현금장학금은 통합정보시스템에 인증된 개인계좌로 지급됩니다.
+            <br><font color=red>개인계좌 실명인증을 꼭 해주세요!</font></li>
+          <li>현금장학금은 중복수혜가 가능합니다.
+            <br>ex) 2020학년도 2학기에 능력인증장학금과 공로장학금을 동시에 받을 수 있습니다.</li>
+        </ul>
+      <br><li><b>장학공지에 등록되지 않은 교외장학금을 학생이 개별적으로 신청하는 경우, 추천서는 소속학과나 소속단과대학 행정실에 문의하세요.</b></li>
+      <br><li><b><font color=red>교육비납입증명서</font>와 <font color=red>장학금수혜확인서</font>는 인터넷 발급에서 무료로 발급받을 수 있습니다.</b>
+        <br><a href = "https://docu.seoultech.ac.kr/">인터넷 발급</a></li>
+      <br><li><b>장학금 수혜 우선순위는 다음과 같습니다.</b></li>
+        <ol>
+          <li>교외장학금</li>
+          <li>국가장학금</li>
+          <li>교내장학금</li>
+        </ol>
+      <br><li><b>장학금별 지급방식과 지급시기</b></li>
+      <style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-9wq8{border-color:inherit;text-align:center;vertical-align:middle}
+.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-nrix{text-align:center;vertical-align:middle}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-9wq8" rowspan="2">   <span style="color:black;background-color:white">연번</span>   </th>
+    <th class="tg-wa1i" rowspan="2">   <span style="color:black;background-color:white">장학금명칭</span>   </th>
+    <th class="tg-wa1i" rowspan="2">   <span style="color:black;background-color:white">지급방식</span>   </th>
+    <th class="tg-wa1i" colspan="2">   <span style="color:black;background-color:white">지급시기</span>   </th>
+    <th class="tg-wa1i" rowspan="2">   <span style="color:black;background-color:white">비고</span>   </th>
+  </tr>
+  <tr>
+    <td class="tg-wa1i">   <span style="color:black;background-color:white">1학기</span>   </td>
+    <td class="tg-wa1i">   <span style="color:black;background-color:white">2학기</span>   </td>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-wa1i">   <span style="color:black;background-color:white">1</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">입학성적우수장학금(신입생)</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">우선감면</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">2월</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">8월</span>   </td>
+    <td class="tg-nrix"></td>
+  </tr>
+  <tr>
+    <td class="tg-wa1i">   <span style="color:black;background-color:white">2</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">성적우수장학금(재학생)</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">우선감면</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">2월</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">8월</span>   </td>
+    <td class="tg-nrix">&nbsp;&nbsp;&nbsp;<br> &nbsp;&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="tg-wa1i">   <span style="color:black;background-color:white">3</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">법정장학금</span><br>   <span style="color:black;background-color:white">(국가유공자, 북한이탈주민)</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">우선감면</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">2월</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">8월</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">복학생 또는 등록금 납부 후</span><span style="color:black">   </span><span style="color:black;background-color:white">신청자 후지급</span>   </td>
+  </tr>
+  <tr>
+    <td class="tg-wa1i">   <span style="color:black;background-color:white">4</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">어의장학금</span><br>   <span style="color:black;background-color:white">(저소득층 장학금)</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">우선감면 또는 후지급</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">2월/5월</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">8월/11월</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">신·편입생, 복학생 후지급</span><br>   <span style="color:black;background-color:white">(한국장학재단 소득분위 산정 후 지급)</span>   </td>
+  </tr>
+  <tr>
+    <td class="tg-wa1i">   <span style="color:black;background-color:white">5</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">봉사장학금</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">우선감면</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">2월</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">8월</span>   </td>
+    <td class="tg-nrix"></td>
+  </tr>
+  <tr>
+    <td class="tg-wa1i">   <span style="color:black;background-color:white">6</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">외국인장학금</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">우선감면</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">2월</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">8월</span>   </td>
+    <td class="tg-nrix"></td>
+  </tr>
+  <tr>
+    <td class="tg-wa1i">   <span style="color:black;background-color:white">7</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">국제교류장학금</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">우선감면</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">2월</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">8월</span>   </td>
+    <td class="tg-nrix"></td>
+  </tr>
+  <tr>
+    <td class="tg-wa1i">   <span style="color:black;background-color:white">8</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">SeoulTech 가족장학금</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">우선감면</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">2월/5월</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">8월/11월</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">신·편입생, 복학생 후지급</span>   </td>
+  </tr>
+  <tr>
+    <td class="tg-wa1i">   <span style="color:black;background-color:white">9</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">공로장학금</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">후지급</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">8월</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">2월</span>   </td>
+    <td class="tg-nrix"></td>
+  </tr>
+  <tr>
+    <td class="tg-wa1i">   <span style="color:black;background-color:white">10</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">능력인증장학금</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">후지급</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">8월</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">2월</span>   </td>
+    <td class="tg-nrix"></td>
+  </tr>
+  <tr>
+    <td class="tg-wa1i">   <span style="color:black;background-color:white">11</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">근로장학금(교내, 국가)</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">후지급</span>   </td>
+    <td class="tg-nrix" colspan="2">   <span style="color:black;background-color:white">매월 10일</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">근로 진행 다음달</span>   </td>
+  </tr>
+  <tr>
+    <td class="tg-wa1i">   <span style="color:black;background-color:white">12</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">학생DREAM마일리지장학금</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">후지급</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">8월</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">2월</span>   </td>
+    <td class="tg-nrix"></td>
+  </tr>
+  <tr>
+    <td class="tg-wa1i">   <span style="color:black;background-color:white">13</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">특별지원장학금</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">후지급</span>   </td>
+    <td class="tg-nrix" colspan="2">   <span style="color:black;background-color:white">사유발생시</span>   </td>
+    <td class="tg-nrix"></td>
+  </tr>
+  <tr>
+    <td class="tg-wa1i">   <span style="color:black;background-color:white">14</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">SeoulTech 희망장학금</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">후지급</span>   </td>
+    <td class="tg-nrix" colspan="2">   <span style="color:black;background-color:white">사유발생시</span>   </td>
+    <td class="tg-nrix"></td>
+  </tr>
+  <tr>
+    <td class="tg-wa1i">   <span style="color:black;background-color:white">15</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">국가장학금1유형</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">우선감면 또는 후지급</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">2월/5월</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">8월/11월</span>   </td>
+    <td class="tg-nrix">&nbsp;&nbsp;&nbsp;<br> &nbsp;&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="tg-wa1i">   <span style="color:black;background-color:white">16</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">푸른등대(구.사랑드림)장학금</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">우선감면 또는 후지급</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">2월/5월</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">8월/11월</span>   </td>
+    <td class="tg-nrix"></td>
+  </tr>
+  <tr>
+    <td class="tg-wa1i">   <span style="color:black;background-color:white">17</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">희망사다리장학금</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">우선감면 또는 후지급</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">2월/5월</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">8월/11월</span>   </td>
+    <td class="tg-nrix"></td>
+  </tr>
+  <tr>
+    <td class="tg-wa1i">   <span style="color:black;background-color:white">18</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">교외장학금</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">우선감면 또는 후지급</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">수시</span>   </td>
+    <td class="tg-nrix">   <span style="color:black;background-color:white">수시</span>   </td>
+    <td class="tg-nrix"></td>
+  </tr>
+</tbody>
+</table>
+        <ul>
+          <li>장학금별 지급방식과 지급시기는 장학계획 및 학사일정 등에 따라 변동 가능하므로, 수시로 홈페이지 <a href = "http://www.seoultech.ac.kr/service/info/janghak">장학공지사항</a>을 확인하세요.</li>
+        </ui>
+    </ol>
+    <a class="btn" href="./장학금을 받기 위해 꼭 알아야 할 사항.pdf" download>장학금을 받기 위해 꼭! 알아야 할 사항</a>
+    <br><br>
+</section>
+</div>
+</body>
+</html>
